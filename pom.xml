@@ -33,7 +33,7 @@
               </execution>
             </executions>
             <configuration>
-              <mainClass>edu.cvds.patterns.archetype.App</mainClass> 
+              <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass> 
             </configuration>
         </plugin>
     </plugins>

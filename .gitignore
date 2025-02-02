@@ -1,0 +1,17 @@
+# Ignorar la carpeta target donde se generan los archivos compilados
+target/
+
+# Ignorar configuraciones del IDE
+*.iml
+.idea/
+.vscode/
+*.class
+
+# Ignorar dependencias descargadas por Maven
+.mvn/
+*.log
+
+# Ignorar archivos de sistema y de compilación
+.DS_Store
+Thumbs.db
+

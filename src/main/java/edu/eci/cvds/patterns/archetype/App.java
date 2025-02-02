@@ -1,4 +1,4 @@
-package edu.cvds.patterns.archetype;
+package edu.eci.cvds.patterns.archetype;
 
 /**
  * Hello world!
@@ -10,9 +10,9 @@ public class App
     {
         String name = "world";
         if (args.length > 0){
-            name = args[0];
+            name = String.join(" ", args);
         }
  
-        System.out.println( "Hello" + name + "!" );
+        System.out.println( "Hello " + name + "!" );
     }
 }
