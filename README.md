@@ -47,9 +47,13 @@ Las fases de compilación representan cada etapa de ciclo de vida en este caso s
 
 ### Para qué sirven los plugins
  Los plugin son componentes que realizan una tarea durante un proceso de construcción por ejemplo
+ 
  -Compilar el codigo
+ 
  -Crear un archivo Jar
+ 
  -Generar la documentación de un proyecto
+ 
 Es decir que son una pieza de software que permite a otro sistema informatico realizar acciones que no están incluidas en el código.
 
 ### Qué es y para qué sirve el repositorio central de maven
@@ -153,7 +157,7 @@ Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con 
 
 ---
 
-###REFERENCIAS
+## REFERENCIAS
 
 https://maven.apache.org/guides/introduction/introduction-to-repositories.html
 
