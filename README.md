@@ -61,9 +61,10 @@ El repositorio cebtral de Maven se usa para el almacenamiento de bibliotecas Jav
 ## CREAR UN PROYECTO CON MAVEN
 Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes) y buscar cómo ejecutar desde línea de comandos el objetivo "generate" del plugin "archetype", con los siguientes parámetros:
 
-El arqueotipo es el siguiente:
+### El arqueotipo es el siguiente:
 
- mvn archetypes:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.0 -Dpackage=edu.eci.cvds.patterns.archetype -DinteractiveMode=False
+  ```mvn archetypes:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.0 -Dpackage=edu.eci.cvds.patterns.archetype -DinteractiveMode=False```
+
 
 ![Texto](Imagenes_README/conf_maven.png)
 
@@ -114,6 +115,16 @@ Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
 
 ## HACER EL ESQUELETO DE LA APLICACIÓN
 
+Analice y asegúrese de entender cada una de las instrucciones que se encuentran en todas las clases que se crearon anteriormente. Cree el archivo ShapeFactory.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes implementando el patrón fábrica (Hint: https://refactoring.guru/design-patterns/catalog), haciendo uso de la instrucción switch-case de Java y usando las enumeraciones.
+
+
+## ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
+El patron que implementamos fue **Simple Factory** que se basa en encapsular la creacion de objetos en un solo método estatico, lo que nos permite crear instancias de diferentes clases
+
+![Texto](Imagenes_README/Simple_Factory.png)
+
+
+
 Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
 
  - Sin parámetros
@@ -135,7 +146,15 @@ Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con 
 
 ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
 
+- Las instrucciones con pentagon y hexagon funcionan correctamente, ya que son formas reconocidas y están implementadas en el código.
+
+- La ejecución sin parámetros o con qwerty puede fallar si el programa no maneja adecuadamente estos casos. Se puede agregar validaciones para evitar errores y mostrar mensajes.
 
 
+---
+
+###REFERENCIAS
+
+https://maven.apache.org/guides/introduction/introduction-to-repositories.html
 
 
