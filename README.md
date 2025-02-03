@@ -25,6 +25,15 @@ Las fases de compilación representan cada etapa de ciclo de vida en este caso s
  -**`install`**
     Instalar el paquete en el repositorio local para utilizarlo como  dependencias en otros proyectos locales   
  -**`Validate`**
-    Se encarga de Copiar el paquete final al repositorio remoto para compartirlo con otros desarrolladores      
+    Se encarga de Copiar el paquete final al repositorio remoto para compartirlo con otros desarrolladores   
+
+### Ciclo de vida de la construcción
+ -**`Clean`**
+    Se encarga de limpiar la compilación del proyecto.
+ -**`Default`**
+    Controla el proceso de construcción del proyecto.
+ -**`Site`**
+    Se encarga de comprobar la creacion de la documentación del proyecto.
+
 
 ---
