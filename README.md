@@ -35,5 +35,20 @@ Las fases de compilación representan cada etapa de ciclo de vida en este caso s
  -**`Site`**
     Se encarga de comprobar la creacion de la documentación del proyecto.
 
+### Para qué sirven los plugins
+ Los plugin son componentes que realizan una tarea durante un proceso de construcción por ejemplo
+ -Compilar el codigo
+ -Crear un archivo Jar
+ -Generar la documentación de un proyecto
+Es decir que son una pieza de software que permite a otro sistema informatico realizar acciones que no están incluidas en el código.
+
+### Qué es y para qué sirve el repositorio central de maven
+El repositorio cebtral de Maven se usa para el almacenamiento de bibliotecas Java,Complementos y otros artefactos de la construcción de un proyecto una pequeña observación es que los repositorios pueden ser locales o remotos y se diferencian en:
+ - El local es un directorio en la computadora donde se ejecuta Maven. Almacena en caché las descargas remotas y contiene artefactos de compilación temporales que aún no ha publicado.
+ - El remoto hace referencia a cualquier otro tipo de repositorio al que se accede mediante una variedad de protocolos, como file://y https://.
+
+
+## CREAR UN PROYECTO CON MAVEN
+
 
 ---
