@@ -69,5 +69,71 @@ Para ver el conjunto de archivos y directorios creados por el comando mvn ejecut
 
 ![Texto](Imagenes_README/tree.png)
 
+## AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
+
+Edite el archivo pom.xml y realize la siguiente actualización:
+
+  -  Hay que cambiar la version del compilador de Java a la versión 8, para ello, agregue la sección properties antes de la sección de dependencias:
+
+  ![Texto](Imagenes_README/pom1.png)
+
+## COMPILAR Y EJECUTAR
+Para compilar ejecute el comando:
+
+- mvn package
+![Texto](Imagenes_README/sinParametros.png)
+
+
+Busque cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando mvn.
 
 ---
+Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World!
+
+![Texto](Imagenes_README/HelloWorld.png)
+
+Utilizar la primera posición del parámetro que llega al método "main" para realizar elsaludo personalizado, en caso que no sea posible, se debe mantener el saludo como se encuentra actualmente:
+
+![Texto](Imagenes_README/nuevoMain.png)
+
+![Texto](Imagenes_README/mainApellido.png)
+
+Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. Ej: Hello Pepito!
+
+
+![Texto](Imagenes_README/HelloJeimy.png)
+
+Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
+
+![Texto](Imagenes_README/HelloJeimyYaya1.png)
+
+Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
+
+![Texto](Imagenes_README/HelloJeimyYaya2.png)
+
+## HACER EL ESQUELETO DE LA APLICACIÓN
+
+Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
+
+ - Sin parámetros
+
+ ![Texto](Imagenes_README/sinParametros.png)
+
+ - Parámetro: qwerty
+
+ ![Texto](Imagenes_README/qwerty.png)
+
+ - Parámetro: pentagon
+
+ ![Texto](Imagenes_README/pentagon.png)
+
+ - Parámetro: Hexagon
+
+ ![Texto](Imagenes_README/Hexagon.png)
+
+
+¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+
+
+
+
+
