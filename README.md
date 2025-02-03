@@ -3,7 +3,9 @@
 **Objetivo:**  
 El objetivo de este laboratorio es aprender como se utiliza **Maven** para proyectos
 
----
+![Texto](Imagenes_README/Maven_logo.png)
+
+
 
 ## HERRAMIENTA MAVEN
 
