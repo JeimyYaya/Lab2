@@ -1,5 +1,8 @@
 ## Segundo Laboratorio de CVDS
-
+**Integrantes:**  
+- Alison Valderrama
+- Jeimy Yaya
+  
 **Objetivo:**  
 El objetivo de este laboratorio es aprender como se utiliza **Maven** para proyectos
 
